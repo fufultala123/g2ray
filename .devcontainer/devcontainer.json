@@ -1,5 +1,5 @@
 {
-  "name": "Proton",
+  "name": "Ft",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "Proton",
+      "label": "Ft",
       "protocol": "http",
       "onAutoForward": "silent"
     }
